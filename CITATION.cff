@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you use this material, please cite this archive (and the article, once published)."
+title: "Road traffic deaths after total alcohol prohibition in Bihar, India: data and code for a natural experiment using synthetic difference-in-differences and Bayesian counterfactual analysis"
+type: software
+authors:
+  - family-names: Siddalingaiah
+    given-names: H S
+    orcid: "https://orcid.org/0000-0002-4771-8285"
+    affiliation: "Department of Community Medicine, Shridevi Institute of Medical Sciences and Research Hospital, Tumakuru, Karnataka, India"
+version: 1.0.0
+date-released: 2026-11-09
+license: MIT
+repository-code: "https://github.com/hssling/india-bihar-prohibition-road-deaths"
+references:
+  - type: dataset
+    title: "Higher traffic fines and road deaths in India: data and code (state-month road-death panel 2014-2024)"
+    doi: "10.5281/zenodo.24055110"
+    authors:
+      - family-names: Siddalingaiah
+        given-names: H S
+keywords:
+  - alcohol prohibition
+  - road traffic deaths
+  - drink-driving
+  - natural experiment
+  - synthetic difference-in-differences
+  - Bayesian imputation
+  - Bihar
+  - India

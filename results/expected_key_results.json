@@ -1,0 +1,83 @@
+{
+  "_note": "Values reported in the manuscript (rounded); verify.py recomputes each from data/ and outputs/.",
+  "sdid_pct": {
+    "Apr-Dec 2016": -16.4,
+    "Apr 2016-Mar 2017": -11.7,
+    "Apr 2016-Dec 2017": -4.8,
+    "placebo date Apr 2015": 1.6
+  },
+  "sdid_p": {
+    "Apr-Dec 2016": 0.059,
+    "Apr 2016-Mar 2017": 0.059,
+    "Apr 2016-Dec 2017": 0.47,
+    "placebo date Apr 2015": 0.71
+  },
+  "trend_did": {
+    "with Bihar trend|Apr-Dec 2016": [
+      -16.0,
+      -20.3,
+      -11.5
+    ],
+    "with Bihar trend|2017": [
+      -3.0,
+      -9.9,
+      4.5
+    ],
+    "no Bihar trend|Apr-Dec 2016": [
+      -12.7,
+      -16.2,
+      -9.1
+    ],
+    "with Bihar trend|pre-trend per year": [
+      2.6,
+      null,
+      null
+    ]
+  },
+  "bayes": {
+    "Apr-Dec 2016 (months 0-8)": [
+      -14.2,
+      -23.9,
+      -3.8
+    ],
+    "Apr 2016-Mar 2017 (first year)": [
+      -11.2,
+      -21.3,
+      0.2
+    ],
+    "Jan-Mar 2017 (months 9-11)": [
+      -1.5,
+      -16.8,
+      16.7
+    ],
+    "Apr-Dec 2017 (SC highway ban in donors)": [
+      4.6,
+      -13.0,
+      25.8
+    ]
+  },
+  "bayes_placebo": {
+    "placebo Apr 2015-Dec 2015": [
+      9.5,
+      -3.6,
+      24.2
+    ]
+  },
+  "bayes_counts": {
+    "observed": 3548,
+    "expected": 4137,
+    "averted": 589
+  },
+  "recording_relative_pct": {
+    "accidents": -19.6,
+    "injuries": -19.8,
+    "deaths": -15.1
+  },
+  "night_day_triple_diff_2016": 4.8,
+  "panel_bihar_killed": {
+    "2014": 4913,
+    "2015": 5421,
+    "2016": 4901,
+    "2017": 5554
+  }
+}

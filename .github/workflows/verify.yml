@@ -1,0 +1,19 @@
+name: reproduce-and-verify
+on: [push, pull_request, workflow_dispatch]
+jobs:
+  verify:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - run: pip install -r requirements.txt
+      - name: Re-run synthetic DiD, trend fixed effects and recording check (overwrites committed outputs)
+        run: |
+          python src/sdid_bihar.py
+          python src/trend_did.py
+          python src/recording_check.py
+      - name: Verify every reported number
+        run: python verify.py

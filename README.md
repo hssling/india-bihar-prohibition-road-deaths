@@ -2,9 +2,10 @@
 
 Data and code for a natural-experiment evaluation of Bihar's total alcohol prohibition (country liquor banned on 1 April 2016, all alcohol from 5 April 2016) on police-recorded road traffic deaths. Bihar is compared with Indian states that did not change alcohol policy. The study uses three designs with a comparison group, placebo tests, a time-of-day mechanism test and an under-recording check.
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.24060122.svg)](https://doi.org/10.5281/zenodo.24060122)
 [![reproduce-and-verify](https://github.com/hssling/india-bihar-prohibition-road-deaths/actions/workflows/verify.yml/badge.svg)](https://github.com/hssling/india-bihar-prohibition-road-deaths/actions/workflows/verify.yml)
 
-**Status.** The accompanying manuscript has been submitted for publication. Please cite this archive (`CITATION.cff`) until the article is out.
+**Status.** The accompanying manuscript has been submitted for publication. Please cite this archive until the article is out: Siddalingaiah H S. *Road traffic deaths after total alcohol prohibition in Bihar, India: data and code* (v1.0.0). Zenodo; 2026. https://doi.org/10.5281/zenodo.24060122
 
 ## Main findings
 
